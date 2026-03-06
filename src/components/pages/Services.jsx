@@ -1,5 +1,5 @@
 import React from "react";
-
+import Scanner from "./Scanner";
 const Services = () => {
   return (
     <div className="w-full min-h-screen bg-white p-10">
@@ -35,7 +35,10 @@ const Services = () => {
         </div>
 
       </div>
+      <div className="mt-8">
 
+<Scanner/>
+      </div>
     </div>
   );
 };
