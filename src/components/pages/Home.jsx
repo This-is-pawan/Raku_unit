@@ -5,16 +5,12 @@ import { FaTools, FaShippingFast, FaRecycle, FaMapMarkerAlt } from "react-icons/
 
 const Home = () => {
 
-  /* NEW TRUCK DATA */
-
   const trucks = [
     { name: "Tata 407 Gold", price: "₹10 Lakh" },
     { name: "Mahindra Blazo X", price: "₹28 Lakh" },
     { name: "Ashok Leyland Dost", price: "₹9 Lakh" },
     { name: "Eicher Pro 2049", price: "₹12 Lakh" }
   ];
-
-  /* TRUCK PARTS */
 
   const parts = [
     "Truck Tyres",
@@ -25,8 +21,6 @@ const Home = () => {
     "Gear System"
   ];
 
-  /* SCRAP / JUNK MARKET */
-
   const junkItems = [
     "Old Truck Engine",
     "Used Tyres",
@@ -34,8 +28,6 @@ const Home = () => {
     "Old Metal Scrap",
     "Truck Battery Scrap"
   ];
-
-  /* SERVICE LOCATIONS */
 
   const locations = [
     "Darniya Market, Nokha Road, Near GRD Company, Udramsar Highway (Approx 1 KM)",
@@ -49,9 +41,11 @@ const Home = () => {
 
       {/* HERO SECTION */}
 
-      <div className="w-full min-h-screen bg-gradient-to-br from-blue-700 via-purple-700 to-pink-700 flex items-center justify-center p-6">
+      <section className="w-full min-h-screen bg-gradient-to-br from-blue-700 via-purple-700 to-pink-700 flex items-center justify-center p-6">
 
         <div className="w-full max-w-6xl bg-white rounded-2xl shadow-2xl grid md:grid-cols-2 overflow-hidden">
+
+          {/* LEFT SIDE */}
 
           <div className="p-10 flex flex-col justify-center bg-gradient-to-br from-slate-800 to-slate-900 text-white">
 
@@ -114,7 +108,81 @@ const Home = () => {
 
         </div>
 
-      </div>
+      </section>
+
+      {/* COMPANY STATS */}
+
+      <section className="py-16 bg-white">
+
+        <h2 className="text-3xl font-bold text-center mb-10">
+          Our Platform Growth
+        </h2>
+
+        <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-8 px-6 text-center">
+
+          <div className="p-6 bg-gray-100 rounded-xl shadow">
+            <h3 className="text-4xl font-bold text-yellow-500">745+</h3>
+            <p className="text-gray-600">Registered Users</p>
+          </div>
+
+          <div className="p-6 bg-gray-100 rounded-xl shadow">
+            <h3 className="text-4xl font-bold text-blue-500">120+</h3>
+            <p className="text-gray-600">Truck Owners</p>
+          </div>
+
+          <div className="p-6 bg-gray-100 rounded-xl shadow">
+            <h3 className="text-4xl font-bold text-green-600">300+</h3>
+            <p className="text-gray-600">Scrap Deals</p>
+          </div>
+
+          <div className="p-6 bg-gray-100 rounded-xl shadow">
+            <h3 className="text-4xl font-bold text-purple-600">24/7</h3>
+            <p className="text-gray-600">Service Support</p>
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* CUSTOMER REVIEWS */}
+
+      <section className="py-16 bg-gray-100">
+
+        <h2 className="text-3xl font-bold text-center mb-10">
+          What Our Customers Say
+        </h2>
+
+        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 px-6">
+
+          <div className="bg-white p-6 rounded-xl shadow">
+            <p className="text-gray-600 mb-4">
+              "Very fast truck service. My goods were delivered safely.
+              Highly recommended!"
+            </p>
+            <h4 className="font-semibold">Ramesh Kumar</h4>
+            <p className="text-yellow-500">★★★★★</p>
+          </div>
+
+          <div className="bg-white p-6 rounded-xl shadow">
+            <p className="text-gray-600 mb-4">
+              "I sold my old truck parts easily through Raku-Unit.
+              Great marketplace."
+            </p>
+            <h4 className="font-semibold">Amit Sharma</h4>
+            <p className="text-yellow-500">★★★★★</p>
+          </div>
+
+          <div className="bg-white p-6 rounded-xl shadow">
+            <p className="text-gray-600 mb-4">
+              "Best scrap buying service in Bikaner. Good price for old metal."
+            </p>
+            <h4 className="font-semibold">Sandeep Singh</h4>
+            <p className="text-yellow-500">★★★★★</p>
+          </div>
+
+        </div>
+
+      </section>
 
       {/* SERVICES */}
 
@@ -148,8 +216,7 @@ const Home = () => {
 
       </section>
 
-
-      {/* NEW TRUCK MARKET */}
+      {/* BUY NEW TRUCKS */}
 
       <section className="py-16">
 
@@ -179,7 +246,6 @@ const Home = () => {
 
       </section>
 
-
       {/* PARTS MARKETPLACE */}
 
       <section className="py-16 bg-gray-100">
@@ -204,8 +270,7 @@ const Home = () => {
 
       </section>
 
-
-      {/* SCRAP / JUNK SELL */}
+      {/* SCRAP SELL */}
 
       <section className="py-16">
 
@@ -233,7 +298,6 @@ const Home = () => {
 
       </section>
 
-
       {/* SERVICE LOCATIONS */}
 
       <section className="py-16 bg-gray-100">
@@ -258,9 +322,6 @@ const Home = () => {
 
           </div>
 
-
-          {/* GOOGLE MAP */}
-
           <div className="w-full h-[350px] rounded-xl overflow-hidden">
 
             <iframe
@@ -275,7 +336,6 @@ const Home = () => {
         </div>
 
       </section>
-
 
       {/* CALL TO ACTION */}
 
