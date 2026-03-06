@@ -1,6 +1,7 @@
 import React from "react";
 import { GiTowTruck } from "react-icons/gi";
 import { FaRecycle, FaTools, FaShippingFast, FaUsers } from "react-icons/fa";
+import Scanner from "./Scanner";
 
 const About = () => {
   return (
@@ -259,7 +260,7 @@ const About = () => {
         </button>
 
       </section>
-
+<Scanner/>
     </div>
   );
 };
