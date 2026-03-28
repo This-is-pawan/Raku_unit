@@ -38,13 +38,9 @@ const Home = () => {
     <div className="w-full">
 
       {/* HERO SECTION */}
-
       <section className="w-full min-h-screen bg-gradient-to-br from-blue-700 via-purple-700 to-pink-700 flex items-center justify-center p-6">
-
         <div className="w-full max-w-6xl bg-white rounded-2xl shadow-2xl grid md:grid-cols-2 overflow-hidden">
-
           {/* LEFT SIDE */}
-
           <div className="p-10 flex flex-col justify-center bg-gradient-to-br from-slate-800 to-slate-900 text-white">
 
             <h1 className="text-4xl font-bold mb-4">
