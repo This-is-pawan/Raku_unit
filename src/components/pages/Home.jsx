@@ -2,9 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { GiTowTruck } from "react-icons/gi";
 import { FaTools, FaShippingFast, FaRecycle, FaMapMarkerAlt } from "react-icons/fa";
-
 const Home = () => {
-
   const trucks = [
     { name: "Tata 407 Gold", price: "₹10 Lakh" },
     { name: "Mahindra Blazo X", price: "₹28 Lakh" },
